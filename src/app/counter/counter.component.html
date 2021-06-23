@@ -1,0 +1,10 @@
+<div class="card shadow row col-md-6 offset-md-3 mt-5 text-center">
+  <div class="card-body">
+    <h3 style="font-family: cursive;">Current Count: {{ count$ | async }}</h3>
+    <button class="btn btn-outline-danger mr-2" id="increment" (click)="increment()">Increment</button>
+    <button class="btn btn-outline-success mr-2" id="decrement" (click)="decrement()">Decrement</button>
+    <button class="btn btn-outline-dark mr-2" id="reset" (click)="reset()">Reset Counter</button>
+    <button class="btn btn-outline-warning mr-2" id="multiply" (click)="multiplyByTwo()">Multiply By 2</button>
+    <button class="btn btn-outline-info" id="multiply" (click)="multiplyByThree()">Multiply By 3</button>
+  </div>
+</div>
